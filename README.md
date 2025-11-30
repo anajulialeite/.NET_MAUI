@@ -1,41 +1,41 @@
 # .NET MAUI
 
-# O que é .NET MAUI?
+## O que é .NET MAUI?
 
 Framework que evoluiu do Xamarin.Forms e permite desenvolver apps nativos com C# + XAML, compartilhando a maior parte do código entre as plataformas.
 
-# Conteúdos abordados no curso
+## Conteúdos abordados no curso
 
-Configuração do ambiente de desenvolvimento
+<li>Configuração do ambiente de desenvolvimento</li>
 
-Estrutura de projetos .NET MAUI
+<li>Estrutura de projetos .NET MAUI</li>
 
-Construção de interfaces com XAML
+<li>Construção de interfaces com XAML</li>
 
-Controles, layouts e estilização
+<li>Controles, layouts e estilização</li>
 
-Navegação e uso do Shell
+<li>Navegação e uso do Shell</li>
 
-Arquitetura MVVM com MVVM Community Toolkit
+<li>Arquitetura MVVM com MVVM Community Toolkit</li>
 
-Injeção de dependência
+<li>Injeção de dependência</li>
 
-Desenvolvimento orientado a eventos
+<li>Desenvolvimento orientado a eventos</li>
 
-Persistência com Entity Framework Core + SQLite
+<li>Persistência com Entity Framework Core + SQLite</li>
 
-Integração com serviços e recursos nativos
+<li>Integração com serviços e recursos nativos</li>
 
-Publicação e assinatura de app Android
+<li>Publicação e assinatura de app Android</li>
 
-# O que eu aprenderei
+## O que eu aprenderei
 
-Criar aplicativos multiplataforma com .NET
+<li>Criar aplicativos multiplataforma com .NET</li>
 
-Montar telas com design limpo e responsivo
+<li>Montar telas com design limpo e responsivo</li>
 
-Aplicar MVVM corretamente
+<li>Aplicar MVVM corretamente</li>
 
-Armazenar dados localmente
+<li>Armazenar dados localmente</li>
 
-Usar boas práticas de arquitetura e desenvolvimento
+<li>Usar boas práticas de arquitetura e desenvolvimento</li>
