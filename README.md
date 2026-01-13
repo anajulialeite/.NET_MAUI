@@ -1,5 +1,7 @@
 # .NET MAUI
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" align="center" width="50" height="50"/>
+
 ## O que é .NET MAUI?
 
 Framework que evoluiu do Xamarin.Forms e permite desenvolver apps nativos com C# + XAML, compartilhando a maior parte do código entre as plataformas.
