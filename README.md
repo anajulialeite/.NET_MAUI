@@ -37,7 +37,7 @@ Framework que evoluiu do Xamarin.Forms e permite desenvolver apps nativos com C#
 
 <li>Publicação e assinatura de app Android</li>
 
-## O que eu aprenderei
+## O que aprenderei
 
 <li>Criar aplicativos multiplataforma com .NET</li>
 
