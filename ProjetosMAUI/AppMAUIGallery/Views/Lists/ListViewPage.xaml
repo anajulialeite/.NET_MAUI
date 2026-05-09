@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMAUIGallery.Views.Lists.ListViewPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="ListViewPage">
+
+    <ListView
+        x:Name="ListViewControl"
+        HasUnevenRows="True"
+        IsGroupingEnabled="True"
+        IsPullToRefreshEnabled="True"
+        ItemSelected="ListViewControl_ItemSelected"
+        Refreshing="ListViewControl_Refreshing"
+        SelectionMode="Single"
+        SeparatorColor="Blue"
+        SeparatorVisibility="Default">
+        <ListView.Header>
+            <Button Clicked="Button_Clicked" Text="Carregar" />
+        </ListView.Header>
+        <ListView.GroupHeaderTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <VerticalStackLayout Padding="10" BackgroundColor="Purple">
+                        <Label
+                            FontAttributes="Bold"
+                            Text="{Binding CompanyName}"
+                            TextColor="White" />
+                    </VerticalStackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.GroupHeaderTemplate>
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <VerticalStackLayout>
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            Text="{Binding Name}" />
+                        <Label Text="{Binding Description}" TextColor="Gray" />
+
+                        <HorizontalStackLayout>
+                            <Label Margin="10" Text="{Binding LaunchYear}" />
+                            <Label Margin="10" Text="{Binding Duration}" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+
+</ContentPage>
