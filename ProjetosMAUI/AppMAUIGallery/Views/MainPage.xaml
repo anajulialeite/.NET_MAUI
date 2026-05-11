@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMAUIGallery.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="MainPage">
+    <CollectionView x:Name="ComponentCollection">
+        <CollectionView.Header>
+            <Entry
+                Margin="20,20,20,10"
+                Placeholder="Pesquisa..."
+                TextChanged="Entry_TextChanged" />
+        </CollectionView.Header>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <VerticalStackLayout Padding="20,10">
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer CommandParameter="{Binding .}" Tapped="OnTapComponent" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Label FontAttributes="Bold" Text="{Binding Title}" />
+                    <Label Text="{Binding Description}" TextColor="{StaticResource Gray500}" />
+                </VerticalStackLayout>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>
