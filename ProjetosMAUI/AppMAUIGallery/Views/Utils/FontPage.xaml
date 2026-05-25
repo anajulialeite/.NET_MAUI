@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMAUIGallery.Views.Utils.FontPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="FontPage">
+    <VerticalStackLayout>
+        <Label
+            Margin="0,0,0,80"
+            FontFamily="FolditMedium"
+            FontSize="48"
+            HorizontalOptions="Center"
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" />
+        <Label
+            FontFamily="FolditBold"
+            FontSize="48"
+            HorizontalOptions="Center"
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" />
+
+
+        <Image Margin="0,50,0,50" WidthRequest="50">
+            <Image.Source>
+                <FontImageSource
+                    FontFamily="Icons"
+                    Glyph="&#xf301;"
+                    Size="200"
+                    Color="#1877f2" />
+            </Image.Source>
+        </Image>
+        <Image WidthRequest="50">
+            <Image.Source>
+                <FontImageSource
+                    FontFamily="Icons"
+                    Glyph="&#xf303;"
+                    Size="60"
+                    Color="#00acee" />
+            </Image.Source>
+        </Image>
+    </VerticalStackLayout>
+</ContentPage>
